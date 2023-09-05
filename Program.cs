@@ -41,9 +41,9 @@ namespace LedNumbers
                     break;
 
                 case 3:
-                    if (number == '1' || number == '4' || number == '7' || number == '9')
+                    if (number == '1' || number == '4' || number == '7')
                         Console.Write("  |");
-                    else if (number == '3' || number == '5')
+                    else if (number == '3' || number == '5' || number == '9')
                         Console.Write(" _|");
                     else if (number == '6' || number == '8' || number == '0')
                         Console.Write("|_|");
